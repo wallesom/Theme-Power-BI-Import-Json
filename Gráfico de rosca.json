@@ -1,0 +1,51 @@
+{
+	"name": "DonutChartTemplate",
+	"visualStyles": {
+		"donutChart": {
+			"*": {
+				"general": [{
+					"responsive": true,
+					"keepLayerOrder": true
+				}],
+				"background": [{
+					"show": true,
+					"color": { "solid": { "color": "#FFFFFF"}},
+					"transparency": 0
+				}],
+				"border": [{
+					"color": { "solid": { "color": "#808080"}},
+					"show": true,
+					"radius": 0
+				}],
+				"title": [{
+					"show": true,
+					"fontColor": { "solid": { "color": "#000000" } },
+					"background": { "solid": { "color": "#FFFFFF" } },
+					"alignment": "center"
+				}],
+				"legend": [{
+					"show": true,
+					"position": "Top",
+					"showTitle": true,
+					"titleText": "",
+					"labelColor": { "solid": { "color": "#01B8AA"}},
+					"fontFamily": "Segoe UI",
+					"fontSize": 12
+				}],
+				"labels": [{
+					"show": true,
+					"labelStyle": "Data",
+					"color": { "solid": { "color": "#01B8AA"}},
+					"labelDisplayUnits": "0",
+					"labelPrecision": 0,
+					"fontSize": 10,
+					"fontFamily": "Verdana",
+					"position": "inside"
+				}],
+				"slices": [{
+					"innerRadiusRatio": 90
+				}]
+			}
+		}
+	}
+}

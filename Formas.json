@@ -1,0 +1,29 @@
+{
+	"name": "ShapeTemplate",
+	"visualStyles": {
+		"shape": {
+			"*": {
+				"general": [{
+					"keepLayerOrder": true
+				}],
+				"line": [{
+					"lineColor": { "solid": { "color": "#01B8AA"}},
+					"transparency": 0,
+					"weight": 3,
+					"roundEdge": 0
+				}],
+				"fill": [{
+					"show": true,
+					"fillColor": { "solid": { "color": "#DDDDDD"}},
+					"transparency": 0
+				}],
+				"rotation": [{
+					"angle": 0
+				}],
+				"visualHeader": [{
+					"show": false
+				}]
+			}
+		}
+	}
+}
